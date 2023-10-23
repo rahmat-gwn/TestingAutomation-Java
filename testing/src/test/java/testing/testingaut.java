@@ -193,16 +193,6 @@ public class testingaut {
        }
 
         //test 14
-
-
-
-
-
-
-
-
-
-
     }
     @AfterTest
     public void tearDown() {
