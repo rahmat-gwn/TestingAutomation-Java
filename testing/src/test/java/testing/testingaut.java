@@ -23,6 +23,7 @@ public class testingaut {
 
     }
     @Test
+// utuk mengaktifkan sistem hapus tanda '//'
     public void automatiotest(){
         driver.get("https://klinikpintar.id/aplikasiklinik");
 
@@ -85,7 +86,7 @@ public class testingaut {
 //            linkElement.click();
 //        }
 
-        //test 4
+        //test 5
 //        WebElement elementWithOnclick = driver.findElement(By.xpath("//div[@onclick='toggleBottomMenu()']"));
 //        elementWithOnclick.click();
 //        sleep(2000);
@@ -94,7 +95,7 @@ public class testingaut {
 //        sleep(2000);
 //        driver.navigate().back();
 
-        //test 5
+        //test 6
 //        WebElement elementWithOnclick = driver.findElement(By.xpath("//div[@onclick='toggleBottomMenu()']"));
 //        elementWithOnclick.click();
 //        sleep(3000);
@@ -102,7 +103,7 @@ public class testingaut {
 //        integrasiLink.click();
 //        sleep(3000);
 //        driver.navigate().back();
-        //test 6
+        //test 7
 //        WebElement elementWithOnclick = driver.findElement(By.xpath("//div[@onclick='toggleBottomMenu()']"));
 //        elementWithOnclick.click();
 //        sleep(3000);
@@ -110,7 +111,7 @@ public class testingaut {
 //        integrasiLink.click();
 //        sleep(3000);
 //
-        //Test 7
+        //Test 8
 //        WebElement elementWithOnclick = driver.findElement(By.xpath("//div[@onclick='toggleBottomMenu()']"));
 //        elementWithOnclick.click();
 //        sleep(3000);
@@ -118,7 +119,7 @@ public class testingaut {
 //        integrasiLink.click();
 //        sleep(3000);
 
-        //Test 8
+        //Test 9
 //        WebElement elementWithOnclick = driver.findElement(By.xpath("//div[@onclick='toggleBottomMenu()']"));
 //        elementWithOnclick.click();
 //        sleep(3000);
@@ -126,7 +127,7 @@ public class testingaut {
 //        integrasiLink.click();
 //        sleep(3000);
 
-        //TEST 9
+        //TEST 10
 //        // Temukan elemen tautan berdasarkan atribut href
 //        WebElement link = driver.findElement(By.cssSelector("a[href='#coba-sekarang']"));
 //
@@ -140,7 +141,7 @@ public class testingaut {
 //            e.printStackTrace();
 //        }
 
-        // TEST 10
+        // TEST 11
 //        try {
 //            // Temukan tombol "Lihat semua fitur" berdasarkan teksnya
 //            WebElement lihatSemuaFiturButton = driver.findElement(By.linkText("Lihat semua fitur"));
@@ -157,7 +158,7 @@ public class testingaut {
 //            driver.quit();
 //        }
 
-        //test 11
+        //test 12
 //        try {
 //            // Temukan tautan "Lihat update" dalam banner pertama
 //            WebElement lihatUpdateLink = driver.findElement(By.cssSelector(".grid-cols-1 a"));
@@ -174,24 +175,24 @@ public class testingaut {
 //            driver.quit();
 //        }
 
-        //test 12
-//        try {
-//            // Temukan elemen "Daftar sekarang" dan klik
-//            WebElement daftarSekarangButton = driver.findElement(By.cssSelector("a[href='https://klinikpintar.id/aplikasiklinik/form-daftar']"));
-//            daftarSekarangButton.click();
-//
-//            // Tunggu sebentar untuk melihat hasilnya
-//            Thread.sleep(3000);
-//
-//            // Anda sekarang berada di halaman baru. Anda dapat menambahkan kode berikut untuk berinteraksi dengan halaman tersebut.
-//
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        } finally {
-//            driver.quit();
-//        }
-
         //test 13
+       try {
+           // Temukan elemen "Daftar sekarang" dan klik
+           WebElement daftarSekarangButton = driver.findElement(By.cssSelector("a[href='https://klinikpintar.id/aplikasiklinik/form-daftar']"));
+           daftarSekarangButton.click();
+
+           // Tunggu sebentar untuk melihat hasilnya
+           Thread.sleep(3000);
+
+           // Anda sekarang berada di halaman baru. Anda dapat menambahkan kode berikut untuk berinteraksi dengan halaman tersebut.
+
+       } catch (Exception e) {
+           e.printStackTrace();
+       } finally {
+           driver.quit();
+       }
+
+        //test 14
 
 
 
@@ -200,15 +201,7 @@ public class testingaut {
 
 
 
-//        driver.findElement(By.cssSelector("#contents a#video-title")).click();
-//        sleep(50000);
-//        driver.findElement(By.name("search_query")).clear();
-//        sleep(1000);
-//        driver.findElement(By.name("search_query")).sendKeys("op one piece 2");
-//        driver.findElement(By.id("search-icon-legacy")).click();
-//        sleep(3000);
-//        driver.findElement(By.cssSelector("#contents a#video-title")).click();
-//        sleep(60000);
+
 
     }
     @AfterTest
